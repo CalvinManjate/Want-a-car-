@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.root {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+
+  .about_root{
+    position: relative;
+    height: 41vmax;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+  }
+  .toyotaCamryHome1 {
+    position: absolute;
+    left: 588px;
+    top: 203px;
+    width: 853px;
+    height: 454px;
+    background-image:url('../src/assets/toyotaCamryHome1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .JaguarHome1 {
+    position: absolute;
+    left: 750px;
+    top: 58px;
+    width: 856.3865px;
+    height: 534px;
+    background-image:url('../src/assets/Want\ a\ Car\ with\ office\ cell.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .map1 {
+    position: absolute;
+    left: 750px;
+    top: 118px;
+    width: 856.3865px;
+    height: 534px;
+    background-image:url('../src/assets/map1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: 0px 0px;
+    mask-position: 0px 0px;
+    -webkit-mask-size: 790px 534px;
+    mask-size: 790px 534px;
+  }
+
+  .Header_content{
+    position: absolute;
+    left: 81px;
+    top: 210px;
+    width: min-content;
+    height: 377px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+.header_title{
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.rectangle158 {
+    width: 1px;
+    max-width: 100%;
+    height: 1px;
+    max-height: 100%;
+    background-color: #d9d9d9;
+  }
+
+.bookYour {
+    color: #807c7c;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 680px;
+    height: 134px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 21px;
+    top: -150px;
+  }
+
+  .AboutYourAffordableCarServiceWis {
+    color: #756b6b;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 680px;
+    height: 134px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 21px;
+    top: -150px;
+  }
+
+  .frame13 {
+    z-index: 0;
+    width: min-content;
+    height: min-content;
+    align-self: flex-start;
+    padding: 10px;
+  }
+
+  .WeHaveAQualifiedDieselMechanic {
+    width: 486px;
+    height: min-content;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .Button_container{
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 20px;
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+  }
+
+  .Button1{
+    background-color: rgba(236, 72, 77, 1);
+    border: 0;
+    padding:14px 50px;
+    border-radius: 1px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  
+  .Button2{
+  
+        background-color: rgb(255, 255, 255);
+        border: 1px solid  rgba(245, 87, 87, 1);
+        padding:14px 50px;
+        border-radius: 1px;
+        color: rgba(245, 87, 87, 1);
+        font-size: 16px;
+        line-height: 120%;
+        font-weight: 500;
+        font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+          'Liberation Sans', sans-serif;
+        width: min-content;
+        height: min-content;
+        text-align: center;
+        align-items: center;
+        white-space: nowrap;
+        flex-direction: column;
+      
+  }
+
+
+
+  .gETAMAJORSERVICE {
+    display: flex;
+    position: absolute;
+    left: 32px;
+    top: 800px;
+    width: 800px;  
+    justify-content: space-evenly;
+    flex-direction:row;
+    animation: slideIn 3s ease-in-out forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+  .gETAMAJORSERVICE h1{
+    color: #313131;
+    font-size: 55px;
+    line-height: 120%;
+    font-weight:lighter;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif; 
+    width: 486px;
+    height: min-content;
+    
+  }
+
+  .gETAMAJORSERVICE span{
+    color: rgba(236, 72, 77, 1);
+    font-size: 55px;
+    line-height: 120%;
+    font-weight:bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif; 
+    
+    
+  }
+
+
+  .everyMajorServiceIncludesAComp {
+    color: #737373;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: lighter;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 702px;
+    top: 25px;
+    width: 586px;
+    height: min-content;
+    flex-direction: column;
+    z-index: 99;
+  }
+
+  .frame10 {
+    background-color: rgba(236, 72, 77, 1);
+    border: 0;
+    padding:14px 50px;
+    border-radius: 1px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    left: 702px;
+    top: 200px;
+    position: absolute;
+  }
+
+  
+  .frame11 {
+    background-color: rgb(209, 209, 209);
+    border: 0;
+    padding:14px 50px;
+    border-radius: 1px;
+    color: #0e0c0c;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    margin:  50px 0;
+   
+  }
+
+  .Section{
+    background: linear-gradient(rgba(255, 255, 255, 0.925), rgb(228, 228, 228)), 
+    url('../assets/pexelsErikMclean127008271.jpeg');
+    left: 0px;
+    width: 1440px;
+    height: 1100px;
+
+    top: 150vh;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%; 
+  };
+
+  Section_content{
+    position: absolute;
+    left: 109px;
+    top: 164px;
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 17px;
+  }
+
+  .headis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    font-weight: lighter;
+  }
+
+  /* Home.css */
+.servicesub {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .subscription-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+  
+  
+  
+  .subscription-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .subscription-card p {
+    margin: 5px 0;
+  }
+  
+  .subscription-card strong {
+    font-weight: bold;
+  }
+  .subscription-card {
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 25px;
+    width: 400px;
+    height: 400px; /* Adjust width as needed */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-size: cover; /* Ensure the background image covers the card */
+    background-position: center; /* Center the image */
+    color: white; /* Change text color for readability */
+   
+    display: flex; /* To center content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Improve text readability */
+  }
+  
+
+  .customer_review{
+    background: linear-gradient(to right,rgb(255, 247, 247), rgba(0, 0, 0, 0.1)), 
+    url('../assets/Untitled\ design\ \(3\).jpg');
+    left: 0px;
+    width: 1440px;
+    height: 400px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+    
+  }
+
+  .customer_review h2{
+position: absolute;
+top: 50px;
+left: 50px;
+color: #313131;
+font-size: 55px;
+line-height: 120%;
+font-weight:lighter;
+font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+  'Liberation Sans', sans-serif; 
+width: 486px;
+height: min-content;
+    
+  }
+
+  .customer_review span{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    color: hwb(0 7% 39%);
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 120%;
+    
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif; 
+    width: 486px;
+    height: min-content;
+        
+      }
+
+  .link{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    text-decoration: none;
+    background: linear-gradient(to right,rgb(87, 29, 29), rgba(146, 2, 2, 0.849)); 
+    border: 1px solid  rgba(245, 87, 87, 1);
+    padding:14px 50px;
+    border-radius: 1px;
+    color: rgb(253, 253, 253);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+   
+        
+      };
+
+
+     
+.tips {
+  padding: 20px;
+  background-color: #2c1a1a;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+.tips {
+  padding: 20px;
+  background: linear-gradient(to right,rgb(255, 255, 255), rgba(255, 255, 255, 0)), 
+  url('../src/assets/map1.png');
+  height: 300px;
+  margin-top: 20px;
+  text-align:start;
+  background-position: right;
+}
+
+.tip-item span{
+  font-size: 55px;
+line-height: 120%;
+font-weight:lighter;
+font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+  'Liberation Sans', sans-serif; 
+  font-weight: bolder;
+  color: #0b991e;
+  }
+
+
+.tip-item h2{
+  font-size: 55px;
+line-height: 120%;
+font-weight:lighter;
+font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+  'Liberation Sans', sans-serif; 
+  }
+
+  .tip-item p{
+   margin: 40px 0;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif; 
+    }
+  
+/* Link Styling */
+.tip-link {
+  background-color: rgb(41, 165, 16);
+  border: 0;
+  padding:15px 50px;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+
+    
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.tip-link:hover {
+  color: #3aaa36;
+  background-color: rgb(250, 245, 245);
+  text-decoration: none;
+  border: 1px solid  #36aa3c;;
+}
+
+.Acreddited{
+ display: flex;
+padding: 200px 100px;
+width: 90%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 30px;
+
+
+}
+.membership{
+  padding:50px 0px;
+  width: 100%;
+  position: relative;
+  position: absolute;
+  left: 520px;
+
+}
+.membership h1{
+  font-weight: 200;
+}
+.membership span{
+  color: rgba(236, 72, 77, 1);
+  font-size: 45px;
+  line-height: 120%;
+  font-weight:bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif; 
+}
+
+.membership p{
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif; 
+}
+
+
+
+ .back{
+  background: linear-gradient(to right,rgb(255, 255, 255), rgba(255, 255, 255, 0)), 
+  url('../src/assets/map1.png');
+  height: 150px;
+  width: 200px;
+  margin: 40px 0;
+  padding: 10px 0px;
+  border-radius: 30px;
+  border: 1px solid salmon;
+ 
+ }
+
+.Acreddited img{
+   width: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 100px;
+}
+
+.gETINTOUCH {
+  position: absolute;
+    margin: 150px 0;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(to right,rgba(255, 255, 255, 0), rgba(73, 78, 73, 0)), 
+  url('../src/assets/map1.png');
+  left: 0px;
+  width: 1440px;
+  height: 500px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative
+ 
+}
+
+.frame329 {
+width: 500px;
+position: absolute;
+top:30px;
+right: 900px;
+ flex-direction: column;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.textstyle{  
+  color: #3b3838;
+  font-size: 16px;
+  line-height: 115%;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.frame330 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+  right: 150px;
+  top: 30px;
+}
+
+iframe{
+width: 550px;
+height: 380px;
+border: none;
+border-radius: 20px;
+}
+
+.contactus{
+  font-family: "Montserrat", sans-serif;
+  color: #771c1c;
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.textBlock10 {
+  color: #614f4f;
+  font-size: 15px;
+  line-height: 120%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bookin_container{
+  margin: 0 10%;
+}
+
+.bookin_container h1{
+  font-size: 50px;
+  color: #e67373;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+
+.bookin_container span{
+  font-size: 50px;
+  font-weight: bold;
+  color: #e67373;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fill_form{
+  font-size: 20px;
+  color: #5a5a5a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+form h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #af3232;
+  font-family: "Montserrat", sans-serif;
+}
+
+form input{
+ width: 350px;
+ height: 35px;
+padding: 5px 10px;
+margin: 15px 0;
+ border: none;
+ background: #F5F5F5;
+ border-radius: 5px 5px 0 0;
+ color: #555454;
+}
+
+
+form select{
+  width: 350px;
+  height: 35px;
+ padding: 5px 0;
+ margin: 15px 0;
+  border: none;
+  background: #F5F5F5;
+  border-radius: 5px 5px 0 0;
+  color: #434443;
+}
+
+.textBlock12{
+  font-size: 50px;
+  color: #d83131;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  width: 700px;
+}
+
+
+
+    
+
+
+
+     
+   
+  
+
+  
+
+
+
