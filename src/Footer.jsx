@@ -28,7 +28,7 @@ function Footer() {
             <img src={background}  className="contact-image" />
             <h1 className="contactus">{title}</h1>
             <p className='textBlock10'>{WorkingHours}</p>
-           
+            <p className="textBlock10">{description}</p>
             <p className="textstyle">
               Email: <a style={{ textDecoration: 'none', color: '#333' }} href={`mailto:${email}`}>{email}</a>
             </p>

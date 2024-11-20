@@ -14,7 +14,7 @@ function Contact() {
 
       <div className="contact-details">
         <p>You can also contact us directly using the details below:</p>
-        <p>Want-A-Car Head Office</p>
+        <p>Want A Car Head Office</p>
 
         <div className="contact-card">
           <div className="icon-container">
