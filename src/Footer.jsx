@@ -5,7 +5,7 @@ const Footer_contact = [
   {
     id: 1,
     title: 'Branch Trading Hours',
-    WorkingHours:`Monday – Friday: 08h00 – 17h00
+    WorkingHour:`Monday – Friday: 08h00 – 17h00
       Saturdays: 08h00 – 13h00
       Sundays: Closed`,
     description: 'If you need consultation with us, you can write a message or call us, we will respond as quickly as possible.',
