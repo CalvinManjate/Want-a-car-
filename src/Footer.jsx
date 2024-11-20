@@ -14,23 +14,25 @@ const Footer_contact = [
     sales_mobile: '0663335467',
     service_booking: '0796602975',
     address: '239 Acasia Street, Pongola, South Africa',
-    background: wantacar, // Use the image directly
+    background: wantacar, 
   },
+
 ];
 
 function Footer() {
   return (
     <div>
       <div className="frame329">
-        {Footer_contact.map(({ WorkingHours, id, title, description, email, tel, service_booking, sales_mobile, address, background }) => (
+        {Footer_contact.map(({ name,WorkingHours, id, title, description, email, tel, service_booking, sales_mobile, address, background }) => (
           <div key={id} className="contact-section">
-            <img src={background} alt="Want a Car" className="contact-image" />
+            <img src={background}  className="contact-image" />
             <h1 className="contactus">{title}</h1>
             <p className='textBlock10'>{WorkingHours}</p>
-            <p className="textBlock10">{description}</p>
+           
             <p className="textstyle">
               Email: <a style={{ textDecoration: 'none', color: '#333' }} href={`mailto:${email}`}>{email}</a>
             </p>
+            <p className="textstyle">{name}</p>
             <p className="textstyle">Tel: {tel}</p>
             <p className="textstyle">Sales Mobile: {sales_mobile}</p>
             <p className="textstyle">Service Booking: {service_booking}</p>

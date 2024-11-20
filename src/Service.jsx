@@ -37,7 +37,7 @@ const subscriptionData = [
     plan: 'Give us a Feeback',
     billingCycle: 'Monthly',
     price: '$50',
-    link: 'https://wa.me/+27683859712?text=hi%20my%20name%20is..',
+    link: 'https://wa.me/+27725367143?text=hi%20my%20name%20is..',
     background: `linear-gradient(rgba(7, 6, 7, 0.8), rgba(7, 6, 7, 0.8)), url(${logo3})`,
   },
 ];

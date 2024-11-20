@@ -1290,7 +1290,7 @@ h1 {
   
   /*footer*/
   .frame329 {
-    left: 40%;
+margin-left: 40%;
     width: 100%;
     position: absolute;
     top:500%;
@@ -1344,11 +1344,11 @@ h1 {
      
     }
     .textBlock10 {
-      margin-left: 60%;
+      margin-left: -10%;
       color: #614f4f;
+      font-family: Montserrat, sans-serif;
       font-size: 12px;
-      font-family: "Montserrat", sans-serif;
-      width: 100%;
+      width: 50%;
     }
     
     

@@ -3,6 +3,7 @@ import './App.css';
 
 const BookingForm = () => {
   const [form, setForm] = useState({
+    Fueltype:'',
     OwnerType: '',
     Name: '',
     Mobile: '',
@@ -25,6 +26,7 @@ const BookingForm = () => {
 
     const message = `
       New Booking:
+      -  Fueltype : ${form.Fueltype}
       - Owner Type: ${form.OwnerType}
       - Name: ${form.Name}
       - Mobile: ${form.Mobile}
@@ -38,12 +40,12 @@ const BookingForm = () => {
       - Booking Date: ${form.BookingDate}
     `;
 
-    const phoneNumber = '+27683859712'; // Replace with recipient's phone number
+    const phoneNumber = ' +27725367143'; 
     const encodedMessage = encodeURIComponent(message);
 
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
-    // Open WhatsApp chat in a new window
+    
     window.open(whatsappLink, '_blank');
   };
 
@@ -103,6 +105,17 @@ const BookingForm = () => {
       <div>
         <h3>Vehicle Details</h3>
         <label style={{ display: "block", marginBottom: "10px" }}>
+        <select
+            name="Fueltype"
+            value={form.Fueltype}
+            onChange={handleChange}
+            style={{ display: 'block', marginTop: '5px' }}
+            required
+          >
+            <option value="">Please choose option</option>
+            <option value="Diesel">Diesel</option>
+            <option value="Petrol">Petrol</option>
+          </select>
           <input
             onChange={handleChange}
             value={form.Vehicle_make}
