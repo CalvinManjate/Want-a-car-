@@ -5,6 +5,9 @@ const Footer_contact = [
   {
     id: 1,
     title: 'Branch Trading Hours',
+    WorkingHours:`Monday – Friday: 07h00 – 17h30
+      Saturdays: 08h00 – 13h00
+      Sundays: Closed`,
     description: 'If you need consultation with us, you can write a message or call us, we will respond as quickly as possible.',
     email: 'admin@wantacar.co.za',
     tel: '0349402605',
@@ -19,10 +22,11 @@ function Footer() {
   return (
     <div>
       <div className="frame329">
-        {Footer_contact.map(({ id, title, description, email, tel, service_booking, sales_mobile, address, background }) => (
+        {Footer_contact.map(({ WorkingHours, id, title, description, email, tel, service_booking, sales_mobile, address, background }) => (
           <div key={id} className="contact-section">
             <img src={background} alt="Want a Car" className="contact-image" />
             <h1 className="contactus">{title}</h1>
+            <p className='textBlock10'>{WorkingHours}</p>
             <p className="textBlock10">{description}</p>
             <p className="textstyle">
               Email: <a style={{ textDecoration: 'none', color: '#333' }} href={`mailto:${email}`}>{email}</a>
